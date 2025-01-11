@@ -1,1 +1,3 @@
 # Image-recognition-model
+
+first, I trained the model using Teachable Machine to classify is dog or cat and export it in the tensorflow-SavedModel format. After that i Wrote a Python script and install TensorFlow if it’s not already available. Once uploaded the model files, extract the contents of the zip file to access the model files. then load the model using TensorFlow's tf.saved_model.load() function, which is specifically designed to handle the SavedModel format. Then to make predictions, Upload input images to ensure they match the model’s expected dimensions, convert the images into tensors, and use a defined prediction function to obtain class predictions. 
